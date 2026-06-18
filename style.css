@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+ 
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+ 
+h1 {
+  text-align: center;
+}
+ 
+.task-entry {
+  display: flex;
+  gap: 10px;
+}
+ 
+input {
+  flex: 1;
+  padding: 10px;
+}
+ 
+button {
+  padding: 10px 16px;
+  cursor: pointer;
+}
+ 
+.filters {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+ 
+ul {
+  padding: 0;
+}
+ 
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+ 
+.task--completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+ 
+.actions {
+  display: flex;
+  gap: 10px;
+}
+ 
+#task-error {
+  color: red;
+  margin-top: 8px;
+}
+ 
+#empty-state {
+  color: gray;
+}
